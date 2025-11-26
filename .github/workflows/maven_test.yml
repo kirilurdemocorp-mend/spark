@@ -176,7 +176,7 @@ jobs:
         # - Yarn has a Python specific test too, for example, YarnClusterSuite.
         if: contains(matrix.modules, 'resource-managers#yarn') || (contains(matrix.modules, 'sql#core')) || contains(matrix.modules, 'connect')
         with:
-          python-version: '3.11'
+          python-version: '3.14'
           architecture: ${{ inputs.arch }}
       - name: Install Python packages (Python 3.11)
         if: contains(matrix.modules, 'resource-managers#yarn') || (contains(matrix.modules, 'sql#core')) || contains(matrix.modules, 'connect')
