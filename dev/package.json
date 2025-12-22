@@ -1,9 +1,9 @@
 {
   "devDependencies": {
-    "eslint": "^7.25.0",
-    "ansi-regex": "^5.0.1",
-    "minimatch": "^3.1.2",
-    "brace-expansion": "^1.1.12"
+    "eslint": "^9.0.0",
+    "ansi-regex": "^6.0.0",
+    "minimatch": "^10.0.0",
+    "brace-expansion": "^4.0.0"
   },
   "resolutions": {
     "optionator": "^0.9.3"
